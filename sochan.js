@@ -1,7 +1,7 @@
 function check(n){
     var sum = 0;
     var index = 0;
-
+    // vòng lặp while
     while (index <= n){
         if (index % 2 == 0) {
             sum += index;

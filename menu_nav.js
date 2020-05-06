@@ -7,12 +7,10 @@ for (var i = 0; i < menu.length; i++){
     {
         // hidden sub menu
         var menuList = document.querySelectorAll('#dropdown > li > ul');
-        for ( var j = 0 ; j < menu.List.length; j++){
+        for ( var j = 0 ; j < menuList.length; j++){
             menuList[j].style.display = "none";
         }
-
         // show menu
         this.children[1].style.display = "block";
     });
-
 }
